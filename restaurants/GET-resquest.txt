@@ -1,0 +1,4 @@
+restaurants?input=<검색어>
+
+사용 예시
+restaurants?input=김밥

@@ -2,8 +2,10 @@
   "restaurants": [
     {
       "marker": {
-        "latitude": 35.22977,
-        "longitude": 126.845971
+        "LatLng" : {
+          "latitude": 35.22977,
+          "longitude": 126.845971
+        }
       },
       "address": "Gwangju",
       "id": 1023,
