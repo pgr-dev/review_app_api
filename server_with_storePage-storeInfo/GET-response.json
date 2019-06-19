@@ -1,10 +1,10 @@
 {
   "id": 1,
   "name": "소보쿠",
-  "branch_name": "",
+  "branch_name": "첨단점",
   "address": "광주 광산구",
   "floor": 1,
-  //원하는 이름 있으면 밑에거 수정해서 알려주세용
   "possible_review_type": "100",
-  "pic": "url"
+  "pic": "url",
+  "type": "000"
 }
