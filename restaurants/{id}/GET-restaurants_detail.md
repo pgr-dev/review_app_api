@@ -13,9 +13,9 @@ Return the detail of specific restaurant.
 
 - id: restaurant id
 
-## Request Snippet
+## Request URL Snippet
 
-/restaurants/10
+- /restaurants/10
 
 
 ## Simple Response
@@ -31,3 +31,4 @@ Return the detail of specific restaurant.
   "pic": "url",
   "type": "000"
 }
+```
