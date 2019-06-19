@@ -13,6 +13,6 @@
 
 
 
-- server_to_mainSearch-restaurantsInfo(음식점 검색 시 서버에서 메인검색페이지에서 받는 정보)
->- server_with_storePage-storeInfo(서버와 음식점 정보 작성 페이지 사이에서 서로 주고받는 정보)
->- 
+>- server_to_mainSearch-restaurantsInfo(음식점 검색 시 서버에서 메인검색페이지에서 받는 정보)
+>>- server_with_storePage-storeInfo(서버와 음식점 정보 작성 페이지 사이에서 서로 주고받는 정보)
+>>- 
