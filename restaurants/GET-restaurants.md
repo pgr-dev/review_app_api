@@ -36,8 +36,10 @@ Return the list of matching restaurants.
       "order": 1,
       "name": "Star Wars",
       "branch_name": "Chumdan",
-      "type": "000",
-      "register_review_type": "000"
+      "status": {
+        "type": "000",
+        "review": "000"
+      }
     },
   ]
 }
