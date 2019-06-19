@@ -3,4 +3,4 @@ restaurants/{id}/review
 사용 예시
 restaurants/10/review
 
-app에 리뷰를 작성할 때 표시되는 세부 사항
+app에 리뷰를 작성할 때 정보 란에 표시되는 데이터들
