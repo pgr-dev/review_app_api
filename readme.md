@@ -1,5 +1,10 @@
 # pg-api
----
+
+
+- GET [restaurants]()
+- GET [restaurants detail]()
+- POST [review]()
+
 
 ## restaurant
 

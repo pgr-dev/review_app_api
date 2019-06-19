@@ -1,6 +1,0 @@
-restaurants/{id}/review
-
-사용 예시
-restaurants/10/review
-
-review 앱에서 db로 저장할 때
