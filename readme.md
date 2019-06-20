@@ -2,8 +2,8 @@
 
 
 - [GET restaurants](https://github.com/pgr-dev/review_app_api/blob/master/restaurants/GET-restaurants.md)
+- [POST restaurants](https://github.com/pgr-dev/review_app_api/blob/master/restaurants/POST-restaurants.md)
 - [GET restaurants detail](https://github.com/pgr-dev/review_app_api/blob/master/restaurants/%7Bid%7D/GET-restaurants_detail.md)
-- [POST restaurants detail](https://github.com/pgr-dev/review_app_api/blob/master/restaurants/%7Bid%7D/POST-restaurants_detail.md)
 - [POST review](https://github.com/pgr-dev/review_app_api/blob/master/restaurants/%7Bid%7D/review/POST-review.md)
 
 
