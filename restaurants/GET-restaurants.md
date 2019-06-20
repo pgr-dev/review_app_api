@@ -37,11 +37,13 @@ Return the list of matching restaurants.
       "name": "Star Wars",
       "branch_name": "Chumdan",
       "status": {
-        "type": "000",
-        "review": "000"
+        "possible_review_type": "000",
+        "registered_reivew_type": "000"
       }
     },
   ]
 }
 ```
+
+* 001 순서대로 음식점, 술집, 카페 참 거짓을 나타냄
 

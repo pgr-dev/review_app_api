@@ -29,6 +29,8 @@ Return the detail of specific restaurant.
   "floor": 1,
   "possible_review_type": "100",
   "pic": "url",
-  "type": "000"
+  "registered_review_type": "000"
 }
 ```
+
+* 100 형식 : 음식점, 술집, 카페 순으로 참 거짓을 나타냄
