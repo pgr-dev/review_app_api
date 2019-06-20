@@ -32,3 +32,5 @@ Return the detail of specific restaurant.
   "type": "000"
 }
 ```
+
+* 100 형식 : 음식점, 술집, 카페 순으로 참 거짓을 나타냄
