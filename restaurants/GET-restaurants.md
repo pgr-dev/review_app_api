@@ -45,3 +45,5 @@ Return the list of matching restaurants.
 }
 ```
 
+* 001 순서대로 음식점, 술집, 카페 참 거짓을 나타냄
+

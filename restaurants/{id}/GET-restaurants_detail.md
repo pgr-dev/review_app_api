@@ -29,7 +29,7 @@ Return the detail of specific restaurant.
   "floor": 1,
   "possible_review_type": "100",
   "pic": "url",
-  "type": "000"
+  "registered_review_type": "000"
 }
 ```
 
