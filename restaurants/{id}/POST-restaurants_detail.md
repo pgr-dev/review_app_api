@@ -21,7 +21,6 @@ Save the the restaurant detail.
 
 ```{.json}
 {
-  "id": "1",
   "name": "소보쿠",
   "branch_name": "첨단점",
   "address": "광주 광산구",
