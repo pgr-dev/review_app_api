@@ -1,6 +1,6 @@
-# GET restaurants detail
+# POST restaurants detail
 
-Return the detail of specific restaurant. 
+Save the the restaurant detail.
 
 
 ## Header Parameters
@@ -11,25 +11,22 @@ Return the detail of specific restaurant.
 
 ## Required Parameters
 
-- id: restaurant id
 
 ## Request URL Snippet
 
-- /restaurants/10
+- /restaurants/
 
 
 ## Simple Response
 
 ```{.json}
 {
-  "id": 1,
+  "id": "1",
   "name": "소보쿠",
   "branch_name": "첨단점",
   "address": "광주 광산구",
   "floor": 1,
   "possible_review_type": "100",
-  "pic": "url",
-  "registered_review_type": "000"
 }
 ```
 
