@@ -1,10 +1,10 @@
-# GET restaurants detail
+# PUT restaurants detail
 
-특정 음식점의 정보를 반환
+특정 음식점의 정보를 수정
 
 ## URI
 
-- restaurants/{pk}
+- restauratns/{pk}
 
 
 ## Header Parameters
@@ -16,7 +16,8 @@
 ## Required Parameters
 
 
-## Simple Response
+
+## Simple Request Body
 
 ```{.json}
 {
@@ -27,7 +28,6 @@
   "floor": 1,
   "possible_review_type": "100",
   "pic": "url",
-  "registered_review_type": "000"
 }
 ```
 

@@ -1,10 +1,10 @@
-# GET restaurants
+# GET users
 
-음식점 검색 시 음식점들의 목록을 반환
+유저의 목록을 반환
 
 ## URI
 
-- restaurants
+- users
 
 
 ## Header Parameters
@@ -12,14 +12,9 @@
 
 ## Optional Parameters
 
-- input : restaurant name
-- address : 음식점 주소. 지도 사용시 적용.
 
 ## Required Parameters
 
-## Request URL Snippet
-
-- /restaurants?input={검색어}
 
 
 ## Simple Response

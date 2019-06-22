@@ -1,6 +1,10 @@
 # POST restaurants
 
-Create new restaurant
+새로운 음식점을 생성
+
+## URI
+
+- restaurants
 
 
 ## Header Parameters
@@ -12,12 +16,8 @@ Create new restaurant
 ## Required Parameters
 
 
-## Request URL Snippet
 
-- /restaurants/
-
-
-## Simple Response
+## Simple Request Body
 
 ```{.json}
 {
