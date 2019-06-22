@@ -9,8 +9,8 @@
 - [GET restaurants detail](https://github.com/pgr-dev/review_app_api/blob/master/restaurants/%7Bid%7D/GET-restaurants_detail.md) : 특정 음식점의 정보를 반환
 - [PUT restaurants detail](https://github.com/pgr-dev/review_app_api/blob/master/restaurants/%7Bid%7D/PUT-restaurants_detail.md) : 특정 음식점의 정보를 업데이트
 
-- [GET reviews](https://github.com/pgr-dev/review_app_api/blob/master/review/GET-reviews.md) : 리뷰의 목록을 반환
-- [POST reviews](https://github.com/pgr-dev/review_app_api/blob/master/review/POST-reviews.md) : 새로운 리뷰를 생성
+- [GET reviews](https://github.com/pgr-dev/review_app_api/blob/master/reviews/GET-reviews.md) : 리뷰의 목록을 반환
+- [POST reviews](https://github.com/pgr-dev/review_app_api/blob/master/reviews/POST-reviews.md) : 새로운 리뷰를 생성
 
 - [GET reviews detail](https://github.com/pgr-dev/review_app_api/blob/master/reviews/%7Bid%7D/GET-reviews_detail.md) : 특정 리뷰를 반환
 - [PUT reviews detail](https://github.com/pgr-dev/review_app_api/blob/master/reviews/%7Bid%7D/PUT-reviews_detail.md) : 특정 리뷰를 수정
@@ -19,7 +19,8 @@
 - [GET users](https://github.com/pgr-dev/review_app_api/blob/master/users/GET-users.md) : 유저 목록을 반환
 - [POST users](https://github.com/pgr-dev/review_app_api/blob/master/users/POST-users.md) : 새로운 유저 추가
 
-- [GET users detail]() : 유저 정보를 반환
+- [GET users detail](https://github.com/pgr-dev/review_app_api/blob/master/users/%7Bid%7D/GET-users_detail.md) : 유저 정보를 반환
+- [PUT users detail](https://github.com/pgr-dev/review_app_api/blob/master/users/%7Bid%7D/PUT-users_detail.md) : 유저 정보를 수정
 
 
 ## 파일 경로
