@@ -39,7 +39,7 @@
   'rstrt_overview_feedback': '더 구체적으로 적어주세요',
   'rstrt_atmosphere': '아기자기해서 데이트 하기 좋은 분위기!',
   'rstrt_atmosphere_feedback': '잘 적었습니다',
-  'menu' : [
+  'menu_set' : [
     {
       'id': 12,
       'type': 'GM',
@@ -50,7 +50,7 @@
       'price_unit': '개',
       'price': 12000,
       'star_rating': 4.5,
-      'food': [
+      'food_set': [
         {
           'id': 56,
           'name': '지라시덮밥',
@@ -104,7 +104,7 @@
 - 'rstrt_overview_feedback': 음식점 개요 피드백(최대 500자)
 - 'rstrt_atmosphere': 분위기 설명(최대 500자)
 - 'rstrt_atmosphere_feedback': 분위기 설명 피드백(최대 500자)
-- 'menu' : 메뉴. 리스트 안에 여러 메뉴 가능.
+- 'menu_set' : 메뉴. 리스트 안에 여러 메뉴 가능.
   - 'id': 메뉴 아이디
   - 'type': 메뉴유형 - 'GM'(일반 메뉴), 'SM'(세트 메뉴), 'CM'(코스 메뉴), 'BM'(뷔페 메뉴)
   - 'name': 메뉴이름(최대 50자)
@@ -114,7 +114,7 @@
   - 'price_unit': 가격단위(최대 10자)
   - 'price': 가격크기
   - 'star_rating': 별점
-  - 'food': 음식. 리스트 안에 여러 음식 가능.   
+  - 'food_set': 음식. 리스트 안에 여러 음식 가능.   
     - 'id': 음식 아이디
     - 'name': 음식 이름(최대 50자)
     - 'description': 음식 설명(최대 500자)
