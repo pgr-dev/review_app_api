@@ -1,10 +1,10 @@
-# GET restaurants detail
+# PUT users detail
 
-특정 음식점의 정보를 반환
+특정 유저의 정보를 수정
 
 ## URI
 
-- restaurants/{pk}
+- users/{pk}
 
 
 ## Header Parameters
@@ -14,6 +14,7 @@
 
 
 ## Required Parameters
+
 
 
 ## Simple Response
@@ -27,7 +28,6 @@
   "floor": 1,
   "possible_review_type": "100",
   "pic": "url",
-  "registered_review_type": "000"
 }
 ```
 
