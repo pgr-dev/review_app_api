@@ -20,14 +20,29 @@
 
 ```{.json}
 {
-  "id": 1,
-  "name": "소보쿠",
-  "branch_name": "첨단점",
-  "address": "광주 광산구",
-  "floor": 1,
-  "possible_review_type": "100",
-  "pic": "url",
-  "registered_review_type": "000"
+    "id": 6892,
+    "rstrtdetailinfo": {
+        "id": 4,
+        "size": "S",
+        "is_duplex": false,
+        "is_room": false,
+        "is_self_service": false,
+        "is_bar_table": null,
+        "is_restroom": true,
+        "restroom_cleanliness": ""
+    },
+    "name": "소보쿠",
+    "branch_name": "동명점",
+    "address": "광주광역시 동구 동명동 135-18",
+    "floor": 3,
+    "possible_review_type": "110",
+    "status": "p_Approved",
+    "register_time": null,
+    "info_register_time": null,
+    "is_active": true,
+    "registered_review_type": "",
+    "active": null,
+    "reviewer": null
 }
 ```
 
