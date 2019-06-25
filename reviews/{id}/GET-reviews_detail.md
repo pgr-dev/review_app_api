@@ -20,25 +20,7 @@
 
 ```{.json}
 {
-  'rstrt_detail_info': {
-    'size': 'S',
-    'is_duplex': 1, 
-    'is_room': 0, 
-    'is_self_service': 1, 
-    'is_bar_table': 0,
-    'is_restroom': 1,
-    'restroom_cleanliness': 'High',
-  }
   'id': 24, 
-  'restaurant': 1024, 
-  'register_time': ,
-  'status': 'Modified', 
-  'type': 'CAFE',
-  'visit_date':,
-  'rstrt_overview': '25년 경력의 일식조리사가 결까지 생각해서 뜨는 회에 소문난 매운탕과 초밥이 일품인 집',
-  'rstrt_overview_feedback': '더 구체적으로 적어주세요',
-  'rstrt_atmosphere': '아기자기해서 데이트 하기 좋은 분위기!',
-  'rstrt_atmosphere_feedback': '잘 적었습니다',
   'menu_set' : [
     {
       'id': 12,
@@ -65,7 +47,27 @@
         }
       ]
     },
-  ]
+  ],
+  'restaurant': {
+    'id': 6892,
+    'rstrtdetailinfo': {
+      'size': 'S',
+      'is_duplex': 1, 
+      'is_room': 0, 
+      'is_self_service': 1, 
+      'is_bar_table': 0,
+      'is_restroom': 1,
+      'restroom_cleanliness': 'High',
+    } 
+  },
+  'register_time': ,
+  'status': 'Modified', 
+  'type': 'CAFE',
+  'visit_date':,
+  'rstrt_overview': '25년 경력의 일식조리사가 결까지 생각해서 뜨는 회에 소문난 매운탕과 초밥이 일품인 집',
+  'rstrt_overview_feedback': '더 구체적으로 적어주세요',
+  'rstrt_atmosphere': '아기자기해서 데이트 하기 좋은 분위기!',
+  'rstrt_atmosphere_feedback': '잘 적었습니다',
   'comment': '나중에 또 생각나는 맛',
   'comment_feedback': '더 구체적으로 적어주세요',
   'flavor_score': 4.5, 
@@ -86,25 +88,8 @@
 }
 ```
 
-- rstrt_detail_info': '정보'란에 있는 음식점 추가 정보들
-  -  'size': 크기 - 'S'(소), 'M'(중), 'L'(대), 'G'(특대)
-  -  'is_duplex': 복층 - 0(거짓), 1(참)
-  -  'is_room': 룸 - 0(거짓), 1(참)
-  -  'is_self_service': 셀프서비스 - 0(거짓), 1(참)
-  -  'is_bar_table': 바테이블 - 0(거짓), 1(참)
-  -  'is_restroom': 화장실 - 0(거짓), 1(참)
-  - 'restroom_cleanliness': 화장실 청결도 - 'High'(상), 'Mid'(중), 'Low'(하)
-- 'id': 리뷰의 아이디
-- 'restaurant': 레스토랑 아이디 
-- 'register_time': ,
-- 'status': 상태 - 'Modified'(리뷰어수정), 'StandBy'(검토대기), 'Approved'(승인)
-- 'type': 리뷰 타입 - 'CAFE', 'RSTRT', 'BAR'
-- 'visit_date': 방문 시간
-- 'rstrt_overview': 음식점 개요(최대 500자)
-- 'rstrt_overview_feedback': 음식점 개요 피드백(최대 500자)
-- 'rstrt_atmosphere': 분위기 설명(최대 500자)
-- 'rstrt_atmosphere_feedback': 분위기 설명 피드백(최대 500자)
-- 'menu_set' : 메뉴. 리스트 안에 여러 메뉴 가능.
+- 'id': 리뷰 고유 값
+- 'menu_set': 메뉴. 리스트 안에 여러 메뉴 가능.
   - 'id': 메뉴 아이디
   - 'type': 메뉴유형 - 'GM'(일반 메뉴), 'SM'(세트 메뉴), 'CM'(코스 메뉴), 'BM'(뷔페 메뉴)
   - 'name': 메뉴이름(최대 50자)
@@ -119,6 +104,25 @@
     - 'name': 음식 이름(최대 50자)
     - 'description': 음식 설명(최대 500자)
     - 'description_feedback': 음식 설명 피드백(최대 500자)
+
+- 'restaurant': 음식점 관련 정보들
+  - 'id': 음식점 고유 값
+  - 'rstrt_detail_info': '정보'란에 있는 음식점 추가 정보들
+    -  'size': 크기 - 'S'(소), 'M'(중), 'L'(대), 'G'(특대)
+    -  'is_duplex': 복층 - 0(거짓), 1(참)
+    -  'is_room': 룸 - 0(거짓), 1(참)
+    -  'is_self_service': 셀프서비스 - 0(거짓), 1(참)
+    -  'is_bar_table': 바테이블 - 0(거짓), 1(참)
+    -  'is_restroom': 화장실 - 0(거짓), 1(참)
+    - 'restroom_cleanliness': 화장실 청결도 - 'High'(상), 'Mid'(중), 'Low'(하)
+- 'register_time': ,
+- 'status': 상태 - 'Modified'(리뷰어수정), 'StandBy'(검토대기), 'Approved'(승인)
+- 'type': 리뷰 타입 - 'CAFE', 'RSTRT', 'BAR'
+- 'visit_date': 방문 시간
+- 'rstrt_overview': 음식점 개요(최대 500자)
+- 'rstrt_overview_feedback': 음식점 개요 피드백(최대 500자)
+- 'rstrt_atmosphere': 분위기 설명(최대 500자)
+- 'rstrt_atmosphere_feedback': 분위기 설명 피드백(최대 500자)
 - 'comment': 자유로운 말(최대 500자)
 - 'comment_feedback': 자유로운 말 피드백(최대 500자)
 - 'flavor_score': 맛점수
